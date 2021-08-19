@@ -8,7 +8,7 @@ func main() {
 	table := [3][3]string{}
 	row := 0
 	colomm := 0
-	for true {
+	for {
 		fmt.Print("o turn's type(row,colomn) :")
 		fmt.Scan(&row, &colomm)
 		for !putXO(&table, row, colomm, "o") {
